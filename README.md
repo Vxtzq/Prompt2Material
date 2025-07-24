@@ -1,4 +1,3 @@
-# Prompt2Material
 <h1 align="center">Prompt2Material</h1>
 Leveraging stable diffusion XL to generate seamless textures from a single prompt
 
