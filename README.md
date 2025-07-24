@@ -5,9 +5,9 @@ Prompt : "League of legends style realistic pbr grassy stone tiles texture topvi
 
 ![Preview](examples/preview.png)
 
-![Preview](examples/mat.png)
-
 ![Preview](examples/seamless.png)
+
+![Preview](examples/mat.png)
 
 # Requirements
 
