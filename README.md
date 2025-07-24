@@ -12,7 +12,7 @@ python -m pip show Flask || pip install Flask
 
 python -m pip show Pillow || pip install torch
 
-python -m pip show numpy || pip install numpy```
+python -m pip show numpy || pip install numpy``````
 
 # Usage
  ``./generate_material.sh --prompt "Your texture prompt here"``
