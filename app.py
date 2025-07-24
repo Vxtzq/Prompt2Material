@@ -2,6 +2,13 @@ from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
+from flask import send_from_directory
+
+@app.route('/results/<path:filename>')
+def serve_results(filename):
+    return send_from_directory('results', filename)
+
+
 @app.route('/')
 def index():
     HTML = """<!DOCTYPE html>
