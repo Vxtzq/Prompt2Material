@@ -3,7 +3,7 @@ Leveraging stable diffusion XL to generate seamless textures from a single promp
 
 # Requirements
 
-The version of packages is not really important
+The version of the packages is not really important
 
 If using python :
 
