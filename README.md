@@ -1,6 +1,7 @@
 # Prompt2Material
 Leveraging stable diffusion XL to generate seamless textures from a single prompt
 
+
 # Requirements
 
 The specific versions of the packages are not particularly important.
