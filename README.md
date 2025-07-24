@@ -4,15 +4,15 @@ Leveraging stable diffusion XL to generate seamless textures from a single promp
 # Requirements
 <pre>pip show diffusers || pip install diffusers
 
-pip show torch || pip install torch
+python pip show torch || pip install torch
 
-pip show opencv-python || pip install opencv-python
+python pip show opencv-python || pip install opencv-python
 
-pip show Flask || pip install Flask
+python pip show Flask || pip install Flask
 
-pip show Pillow || pip install torch
+python pip show Pillow || pip install torch
 
-pip show numpy || pip install numpy</pre>
+python pip show numpy || pip install numpy</pre>
 
 # Usage
  ``./generate_material.sh --prompt "Your texture prompt here"``
