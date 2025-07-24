@@ -36,6 +36,6 @@ def generate_normal_map(height_map_path, strength=1.0, invert_y=True):
     return Image.fromarray(normal_map)
 
 # Usage example
-normal_map_img = generate_normal_map("static/texture.png", strength=2.0)
-normal_map_img.save("static/normal_map.png")
+normal_map_img = generate_normal_map("results/texture.png", strength=2.0)
+normal_map_img.save("results/normal_map.png")
 
