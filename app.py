@@ -30,8 +30,8 @@ def index():
      font-family: sans-serif;
    }
    #viewer-container {
-     width: 640px;
-     height: 480px;
+     width: 100%;
+     height: 95%;
      border: 2px solid #444;
      border-radius: 8px;
      background: #111;
@@ -39,7 +39,7 @@ def index():
    }
    #controls {
      margin-top: 10px;
-     width: 640px;
+     width: 100%;
      display: flex;
      justify-content: space-around;
    }
@@ -118,13 +118,20 @@ def index():
       scene.add(mesh);
     }
    function init() {
+     const container = document.getElementById('viewer-container');
      scene = new THREE.Scene();
 
-     camera = new THREE.PerspectiveCamera(75, 640/480, 0.1, 1000);
+     camera = new THREE.PerspectiveCamera(
+          75,
+          container.clientWidth / container.clientHeight,
+          0.1,
+          1000
+        );
+
      camera.position.set(0, 0, 3);
 
      renderer = new THREE.WebGLRenderer({ antialias: true });
-     renderer.setSize(640, 480);
+     renderer.setSize(container.clientWidth, container.clientHeight);
      document.getElementById('viewer-container').appendChild(renderer.domElement);
 
      controls = new THREE.OrbitControls(camera, renderer.domElement);
@@ -163,9 +170,9 @@ def index():
      
 
      const loader = new THREE.TextureLoader();
-     const texture = loader.load('/static/texture.png');
-     const normalMap = loader.load('/static/normal_map.png');
-     const displacementMap = loader.load('/static/displacement_map.png');
+     const texture = loader.load('/results/texture.png');
+     const normalMap = loader.load('/results/normal_map.png');
+     const displacementMap = loader.load('/results/displacement_map.png');
 
      material = new THREE.MeshStandardMaterial({
         map: texture,
@@ -228,3 +235,4 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
