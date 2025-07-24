@@ -37,5 +37,5 @@ prompt = args.prompt
 
 image = pipe(prompt, height=1024, width=1024, num_inference_steps=30).images[0]
 
-image.save("static/texture.png")
+image.save("results/texture.png")
 
