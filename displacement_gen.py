@@ -35,6 +35,6 @@ def generate_displacement_map(texture_path, contrast=1.0, brightness=0.0, blend_
     return Image.fromarray(displacement_map)
 
 # Usage example:
-disp_map_img = generate_displacement_map("static/texture.png", contrast=2.0, brightness=-0.1, blend_width=20)
-disp_map_img.save("static/displacement_map.png")
+disp_map_img = generate_displacement_map("results/texture.png", contrast=2.0, brightness=-0.1, blend_width=20)
+disp_map_img.save("results/displacement_map.png")
 
