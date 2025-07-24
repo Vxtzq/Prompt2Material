@@ -1,7 +1,7 @@
 # Prompt2Material
 Leveraging stable diffusion XL to generate seamless textures from a single prompt
 
-Prompt : "League of legends style realistic pbr grassy stone tiles texture topview seamless perfect"
+**Prompt : "League of legends style realistic pbr grassy stone tiles texture topview seamless perfect"**
 
 ![Preview](examples/preview.png)
 
@@ -11,7 +11,7 @@ Prompt : "League of legends style realistic pbr grassy stone tiles texture topvi
 
 # Requirements
 
-The specific versions of the packages are not particularly important.
+**The specific versions of the packages are not particularly important. Skip this steps if all the packages are installed**
 
 If using python :
 
