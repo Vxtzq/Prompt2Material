@@ -8,3 +8,6 @@ Leveraging stable diffusion XL to generate seamless textures from a single promp
   
 # Prompt Tips
 Texture generation works best with tags like 'seamless', 'pbr', 'texture', 'topview'
+
+#Flask full web-UI
+Coming soon
