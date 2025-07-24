@@ -3,6 +3,8 @@ Leveraging stable diffusion XL to generate seamless textures from a single promp
 
 ![Preview](examples/preview.png)
 
+![Preview](examples/mat.png)
+
 # Requirements
 
 The specific versions of the packages are not particularly important.
