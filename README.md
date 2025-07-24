@@ -2,6 +2,9 @@
 Leveraging stable diffusion XL to generate seamless textures from a single prompt
 
 # Requirements
+
+The version of packages is not really important
+
 If using python :
 
 <pre>python -m pip show diffusers     || python -m pip install diffusers
