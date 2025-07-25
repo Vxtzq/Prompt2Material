@@ -3,6 +3,8 @@ Leveraging stable diffusion XL to generate seamless textures from a single promp
 
 ![Preview](examples/preview.png)
 
+![Preview](examples/mat.png)
+
 **Prompt : "League of legends style realistic pbr grassy stone tiles texture topview seamless perfect"**
 
 ![Preview](examples/seamless.png)
