@@ -44,7 +44,7 @@ $PYTHON displacement_gen.py
 
 if [[ $view_results -eq 1 ]]; then
   echo "Launching Flask app..."
-  $PYTHON app.py &
+  $PYTHON viewer.py &
 
   FLASK_PID=$!
 
